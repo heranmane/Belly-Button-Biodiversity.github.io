@@ -86,7 +86,7 @@ function buildmetaData(sampleID) {
 
         table.html("")
         Object.entries(results).forEach(([key, value]) => {
-            table.append("h4").text(key + ": " + value)
+            table.append("h6").text(key + ": " + value)
         })
         
 
